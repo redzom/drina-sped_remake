@@ -1,0 +1,874 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+/* Header */
+
+header {
+    position: relative;
+    
+    background-image: url("https://drina-sped.ba/wp-content/uploads/2020/06/drinasped-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 51%;
+}
+.header-text, .header-text a {
+    color: white;
+    text-decoration: none;
+    font-family: "Oxygen",sans-serif !important;
+}
+.header-text {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    left: 0;
+}
+
+.header-text p {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    position: relative;
+}
+
+.header-text h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+
+    background-color: #0b60a9;
+    width: 100px;
+    height: 3px;
+
+    left: 0;
+    bottom:-8px;
+}
+
+.header-text a {
+    font-size: 19px;
+    font-weight: 600;
+    padding: .9em 1.4em;
+    margin: 30px 15px;
+}
+
+.header-text .container div {
+    margin-top: 40px;
+}
+.btn-services {
+    border:2px solid white;
+    transition: .3s;
+}
+
+.btn-services:hover {
+    color: #0b60a9;
+    background-color: white;
+}
+
+.btn-contact {
+    color: white;
+    background-color: #0b60a9;
+    border:2px solid #0b60a9;
+    transition: .3s;
+}
+
+.btn-contact:hover {
+    background-color: #094b85;
+    border:2px solid #094b85;
+}
+/* Main Menu CSS */
+
+/* Main Navigation */
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 10;
+}
+
+.navbar ul a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff !important;
+    font-family: "Oxygen",sans-serif;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-transform: none !important;
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+
+
+/* Selector */
+
+.selector {
+    margin-top: -3%;
+}
+
+.selector .container {
+    -webkit-box-shadow: 0px 28px 29px 13px rgba(209,209,209,1);
+    -moz-box-shadow: 0px 28px 29px 13px rgba(209,209,209,1);
+    box-shadow: 0px 28px 29px 13px rgba(209,209,209,1);
+}
+
+.selector .row  {
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    background-color: white;
+}
+
+.selector-content-main, .selector-content {
+    height: 125px;
+
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 73%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(73%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 73%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 73%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 73%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 73%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+.selector-content-main, .selector-content {
+    width: 100%;
+}
+.selector-text {
+    width: 85%;
+    padding-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 90px;
+}
+
+.content {
+    font-weight: 700;
+    color: #1b1a1a;
+    font-size: 17px;
+    font-family: "Oxygen",sans-serif;
+    line-height: 25px;
+}
+
+.content:hover {
+    color: #1b1a1a;
+    text-decoration: none;
+}
+
+.content-main {
+    position: relative;
+    cursor: pointer;
+    padding: 5px 12px;
+    border: 1px solid #9b9b9b;
+    text-decoration: none!important;
+    width: 100%;
+    font-size: 16px;
+}
+
+.content-main::after {
+    content: "";
+
+    position: absolute;
+    border: 7px solid transparent;
+    border-top-color: black;
+
+    right: 10%;
+    top: 1em;
+    transform: translateY(-2px);
+}
+
+.title {
+    color: #9b9b9b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+/* Icons */
+
+.fa-building::before, .fa-map-marker-alt::before, .fa-phone::before, .fa-envelope::before {
+    font-size: 30px;
+    color: #0b60a9;
+}
+
+
+/* INTRO MAIN */
+
+.intro-main {
+    margin-top: 70px;
+}
+
+.left {
+    height: min-content;
+}
+
+.intro-main img {
+    position: relative;
+    width: 100%;
+}
+
+.img-sticker {
+    position: absolute;
+    bottom:10%;
+    right: -30px;
+
+    width: 50%;
+    height: max-content;
+
+    text-align: center;
+
+    background-color: #0b60a9;
+    color: #fff;
+    padding: 30px 30px;
+}
+
+.fa-truck::before {
+    font-size: 40px;
+}
+
+.img-sticker p {
+    font-size: 21px;
+    font-family: "Oxygen",sans-serif;
+    line-height: 1.2em;
+    margin-top: 30px;
+}
+
+.right > p {
+    color: #0b60a9;
+    font-size: 15px;
+}
+
+.right > h2 {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 70px;
+    position: relative;
+}
+
+.right > h2::after {
+    content: "";
+    display: block;
+    margin-top: 8px;
+
+    width: 100px;
+    height: 3px;
+
+    background-color: #0b60a9;
+}
+
+.intro-text p {
+    color: #818181;
+    font-size: 15px;
+}
+
+.right-sub h3 {
+    font-size: 18px;
+    font-family: "Oxygen",sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.fa-chevron-right {
+    position: relative;
+
+}
+
+.fa-chevron-right::before {
+    color: #0b60a9;
+    font-size: 12px;
+    margin-right: 10px;
+
+    position: relative;
+    left: 0;
+    top: -2px;
+}
+
+.right-sub p {
+    margin: 25px 0 35px 0;
+}
+
+
+/* OFFER */
+
+.offer {
+    height: min-content;
+    width: 100%;
+    background-image: url("https://drina-sped.ba/wp-content/uploads/2020/06/drinasped-bg-2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    margin-top: 70px;
+}
+
+.offer h3 {
+    color: #fff;
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family: "Oxygen",sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.offer h3::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #0b60a9;
+    margin-top: 8px;
+}
+
+.offer p {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.offer a {
+    color: #fff;
+    background-color: rgba(255,255,255,0);
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 22px 30px 22px 30px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.offer a:hover {
+    background-color: white;
+    color: #0b60a9;
+}
+
+/* Services */
+
+.services {
+    width: 100%;
+    height: min-content;
+
+    font-family: "Oxygen",sans-serif;
+    padding: 70px 0;
+
+    background-image: url("https://drina-sped.ba/wp-content/uploads/2020/06/pattern.png");
+    background-repeat: repeat;
+    background-position: top left;
+}
+
+.services-card {
+    background-color: white;
+    padding: 30px 50px;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(7,7,7,0.33); 
+    box-shadow: 0px 0px 19px 0px rgba(7,7,7,0.33);
+    position: relative;
+
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.services-card::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 3px;
+
+    background-color: #0b60a9;
+
+    position: absolute;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.services .row {
+    margin-top: 40px;
+}
+
+.services h3 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.services h3::after {  
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #0b60a9;
+    margin-top: 8px;
+}
+
+
+.services h4 {
+    margin: 40px 0 60px 0;
+}
+
+.services h4 a {
+    text-decoration: none;
+    color: #1b1a1a;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    transition:  .3s;
+    height: max-content;
+    min-height: 72px;
+}
+
+.services h4 a:hover {
+    color: #0b60a9;
+}
+
+.services p {
+    font-size: 15px;
+    color: #818181;
+    margin: 0 0 30px;
+    min-height: 104px;
+    line-height: 1.8;
+}
+
+.services-card a {
+    height: 42px;
+    display: inline-block;
+    background-color: #fff;
+    text-decoration: none;
+    color: #1b1a1a;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px 10px 0;
+    transition: all 350ms ease 0s;
+
+    overflow: hidden;
+}
+
+.fa-arrow-right {
+    color: #0b60a9;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.services-card:hover .services-link{
+    padding-left: 20px;
+    color: white;
+    background-color: #0b60a9;
+    
+}
+
+.services-card:hover .fa-arrow-right {
+    color: white;
+}
+
+
+
+.fa-plane, .fa-ship, .services .fa-truck, .fa-train, .fa-shipping-fast, .fa-file-alt, .fa-warehouse {
+    display: block;
+    width: 100%;
+}
+
+.fa-plane::before, .fa-ship::before, .services .fa-truck::before, .fa-train::before, .fa-shipping-fast::before, .fa-file-alt::before, .fa-warehouse::before {
+    color: #0b60a9;
+    font-size: 100px;
+}
+
+.plane-second::after, .ship-second::after, .truck-second::after, .train-second::after, .shipping-fast-second::after, .file-alt-second::after, .warehouse-second::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 200px;
+    color: #0b5fa928;
+
+    position: absolute;
+    top: -20%;
+    right: -30%;
+
+    transition: .3s;
+    overflow: hidden;
+}
+
+.plane-second::after {
+    content: "\f072";
+}
+
+.ship-second::after {
+    content: "\f21a";
+}
+
+.truck-second::after {
+    content: "\f0d1";
+}
+
+.train-second::after {
+    content: "\f238";
+}
+
+.shipping-fast-second::after {
+    content: "\f48b";
+}
+
+.file-alt-second::after {
+    content: "\f15c";
+}
+
+.warehouse-second::after {
+    content: "\f494";
+}
+
+.icon-hover {
+    opacity: 0;
+    transition: .3s;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 225px;
+    height: 300px;
+
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.services-card:hover .icon-hover {
+    opacity: 1;
+}
+
+
+/* OUR LOCATION */
+
+.our-location {
+    background-image: url("https://drina-sped.ba/wp-content/uploads/2020/07/drina-sped-maps.jpg");
+    background-position: center;
+    background-size: cover;
+
+    min-height: 690px;
+    height: min-content;
+    width: 100%;
+
+    padding: 50px 0;
+
+    border-top: 5px solid #094b85;
+}
+
+#accordion {
+    width: 380px;
+    background-color: #fff;
+    padding: 40px 15px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.accordion-title {
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    color: #ffF;
+    font-weight: 700;
+    background-color: #0b60a9;
+    padding: 26px 0;
+    text-align: center;
+    line-height: 1em;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #818181;
+    font-weight: 400;
+    display: inline-block;
+}
+
+#accordion .fa-home::before, #accordion .fa-envelope::before, #accordion .fa-phone::before  {
+    color: #0b60a9;
+    font-size: 14px;
+    width: 15px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.our-location .collapsed, #accordion .btn {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1b1a1a;
+    width: 100%;
+    line-height: 1em;
+    text-align: left;
+    text-decoration: none;
+    position: relative;
+}
+
+.btn::after, .our-location .collapsed::after, .our-location .collapsed::before {
+    content: "";
+    display: block;
+    position: absolute;
+
+    background-color: #1b1a1a;
+    z-index: 5;
+
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.our-location .collapsed::before {
+    right: 6px;
+}
+
+.btn::after, .our-location .collapsed::before {
+    width: 10px;
+    height: 2px;
+}
+
+.our-location .collapsed::after {
+    height: 10px;
+    width: 2px;
+}
+
+/* FOOTER */
+
+
+
+
+
+
+@media screen and (min-width: 991px) {
+    #main-nav-big {
+        top: 3%;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    .nav-item > a {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff !important;
+        font-family: "Oxygen",sans-serif !important;
+    }
+    #navbarSupportedContent {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .bg-primary {
+        background-color: white !important;
+    }
+    
+    .dropdown-menu {
+        position: relative;
+        width: 230px;
+        height: 328px;
+        padding: 15px;
+    }
+
+    .dropdown-menu::before {
+        content: "";
+        border: 9px solid transparent;
+        border-bottom-color: white;
+
+        position: absolute;
+        top: -18px;
+        left: 18px;
+    }
+
+    .dropdown-menu::after {
+        content: "";
+        width: 80%;
+        height: 3px;
+
+        display: block;
+        background-color: #0b60a9;
+
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .dropdown-menu a {
+        font-weight: 400;
+        font-size: 13px;
+        text-transform: capitalize;
+
+        padding: 12px 15px;
+        position: relative;
+
+        border-bottom: 1px solid #eaeaea;
+        transition: .3s;
+    }
+
+    .dropdown-menu a::before {
+        content: '\f054';
+        display: block;
+        position: absolute;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        color: #0b60a9;
+        font-size: 14px;
+
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+
+        opacity: 0;
+        transition: .3s;
+    }
+
+    .dropdown-menu a:hover {
+        color: #0b60a9;
+        padding-left: 30px;
+        background-color: white;
+    }
+
+    .dropdown-menu a:hover::before{
+        left: 15px;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .offer {
+        text-align: center;
+    }
+    
+    .offer a, .offer p {
+        margin-top: 20px;
+    }
+
+    .offer h3 {
+        margin-bottom: 10px;
+    }
+
+    .offer h3::after {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .right {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+
+    }
+
+    .right > p {
+        text-align: center;
+    }
+
+    .right > h2 {
+        font-size: 27px;
+        line-height: 40px;
+        text-align: center;
+        position: relative;
+
+    }
+
+    .right > h2::after {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .intro-main img {
+        width: 90%;
+    }
+
+    .img-sticker {
+        right: 20px;
+        width: 40%;
+    }
+
+    .header-text .container {
+        text-align: center;
+    }
+
+    .header-text p {
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 28px;
+    }
+
+    .header-text h1::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header-text a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    header {
+      padding-top: 420px;
+    }
+
+    .header-text {
+        top: 25%;
+    }
+
+    .header-text .container div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+
+        align-items: center;
+    }
+
+    .header-text a {
+        margin: 10px 15px;
+        width: 200px;
+    }
+
+    .our-location .container, #accordion {
+        width: 100%;
+        padding: 0;
+    }
+
+    .our-location {
+        position: relative;
+        background-image: url("https://drina-sped.ba/wp-content/uploads/2020/07/drina-sped-maps-mobile.jpg");
+        background-size: contain;
+    }
+
+    #accordion {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 475px;
+    }
+
+    #accordion .container {
+        width: 90%;
+        padding: 20px 0;
+    }
+}
