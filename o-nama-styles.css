@@ -8,6 +8,11 @@ header {
     top: 55%;
 }
 
+.navbar {
+    position: absolute;
+
+}
+
 @media screen and (max-width: 510px) {
 
     header {
