@@ -1,0 +1,85 @@
+header {
+    background-image: none;
+    padding: 10px 0;
+    height: min-content;
+    background-color: #0b60a9;
+}
+
+.navbar, .bg-primary {
+    background-color: transparent !important;
+}
+
+
+@media screen and ( min-width: 992px) {
+    
+    .bg-primary {
+        background-color: #fff !important;
+    }
+
+}
+
+.our-location {
+    border-top: none;
+}
+
+.form {
+    margin: 20px 0;
+    height: min-content;
+}
+
+.form h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Oxygen",sans-serif!important;
+    font-weight: 700!important;
+}
+
+.form h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #0b60a9;
+    margin-top: 8px;
+}
+
+input {
+    height: 40px;
+    border:1px solid gray;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 15px;
+    height: min-content;
+}
+
+label, form p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #212529;
+    text-align: left;
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+label[for="contact-email"], label[for="contact-phone"] {
+    margin: 0;
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #0b60a9;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #0b60a9;
+    padding: 0;
+    height: 44px;
+    outline: none!important;
+    width: 170px;
+    max-width: 100%;
+}
