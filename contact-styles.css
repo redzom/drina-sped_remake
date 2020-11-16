@@ -52,6 +52,10 @@ input {
     border:1px solid gray;
 }
 
+textarea {
+    border:1px solid gray;
+}
+
 input[type="checkbox"] {
     margin: 0;
     margin-right: 10px;
