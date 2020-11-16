@@ -1,0 +1,178 @@
+header {
+    background-image: url("https://drina-sped.ba/wp-content/uploads/2020/07/drinasped-o-nama.jpg");
+    padding-top: 550px;
+
+}
+
+.header-text {
+    top: 55%;
+}
+
+@media screen and (max-width: 510px) {
+
+    header {
+        padding-top: 70%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    header {
+        padding-top: 100%;
+    }
+
+}
+
+.about-us {
+    height: min-content;
+    padding: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .about-us .col-md-4{
+        width: 30% !important;
+    }
+
+    .about-us .col-md-8{
+        width: 50% !important;
+        padding-left: 20px !important;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+    .order-one {
+        order: -50;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+.about-us .bold {
+    font-weight: bold;
+}
+
+.about-us p {
+    text-align: justify;
+}
+
+.about-us h3 {
+    font-size: 29px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.about-us h4 {
+    font-family: "Oxygen",sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 27px;
+}
+
+.about-us .order-one h3::after {  
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #0b60a9;
+    margin-top: 8px;
+}
+
+.about-us-services {
+    padding: 25px 25px;
+    background-color: #f4f4f4;
+}
+
+.about-us-services a {
+    display: block;
+    height: 54px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    color: #1b1a1a;
+    padding: 18px 24px;
+    border-bottom: 1px solid #e7ebef;
+    background-color: #fff;
+    position: relative;
+    transition: .3s;
+}
+
+.about-us-services a:hover  {
+    color: #fff;
+    background-color: #0b60a9;
+    text-decoration: none;
+}
+
+.about-us-services a:hover::after {
+    content: '\f054';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;    
+    font-style: inherit;
+    font-size: 12px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    color: #fff;
+    transform: translate(0,-50%);
+}
+
+
+.about-us-card {
+    background-image: url("https://drina-sped.ba/wp-content/uploads/2020/07/widget_bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin: 20px 0;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+.about-us-card div {
+    background-color: hsla(208, 88%, 35%, .85);
+    padding: 20px 30px;
+}
+
+.about-us-card h3 {
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.about-us-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #f9f9f9;
+    margin-bottom: 18px;
+}
+
+.about-us-card a {
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    box-shadow: none;
+    text-decoration: none;
+    line-height: 46px;
+    transition: .3s;
+    border-radius: 2px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    border: 2px solid #fff;
+    margin-top: 45px;
+}
+
+.about-us-card a:hover {
+    background-color: #fff;
+    color: #1b1a1a;
+}

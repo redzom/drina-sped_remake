@@ -505,7 +505,7 @@ header {
     color: #0b5fa928;
 
     position: absolute;
-    top: -20%;
+    top: 0;
     right: -30%;
 
     transition: .3s;
