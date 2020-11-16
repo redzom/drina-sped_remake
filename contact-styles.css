@@ -5,6 +5,10 @@ header {
     background-color: #0b60a9;
 }
 
+.navbar {
+    position: relative;
+}
+
 .navbar, .bg-primary {
     background-color: transparent !important;
 }
